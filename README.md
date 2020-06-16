@@ -13,7 +13,7 @@ The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
 NOTICE:<br />
-In Package.json a certificate have been specified for https:<br />
+In Package.json a certificate and a privKey have been specified for https:<br />
 "start": "HTTPS=true SSL_CRT_FILE=../.cert/cert.pem SSL_KEY_FILE=../.cert/privkey.pem react-scripts start"<br />
 update this line to the following if https is not needed:<br />
 "start": "react-scripts start"<br />
